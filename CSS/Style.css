@@ -8,6 +8,7 @@ body {
     margin: 8px;
     padding: 0px;
     box-sizing: border-box;
+    max-inline-size: 79rem;
 }
 
 div.panel {
@@ -58,4 +59,23 @@ h1 {
 .credit {
     margin: 0px;
     font-size: 13px;
+}
+
+table {
+    text-align: left;
+    padding: 0px;
+}
+
+thead {
+    background-color: rgb(32 169 229);
+    color: white;
+    padding: 0px;
+}
+
+thead th:nth-last-of-type(1) {
+    width: 50%;
+}
+
+tbody>tr:nth-of-type(odd) {
+    background-color: rgb(177 229 242);
 }
