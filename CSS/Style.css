@@ -1,15 +1,10 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+
 }
 
-.margin {
-    margin: 8px;
-    padding: 0px;
-    box-sizing: border-box;
-    max-inline-size: 79rem;
-}
+
 
 div.panel {
     background-color: rgb(78 160 255);
@@ -40,7 +35,7 @@ h1 {
 }
 
 .info {
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(125 125 125);
     font-size: 23px;
     margin: 0px;
@@ -78,4 +73,33 @@ thead th:nth-last-of-type(1) {
 
 tbody>tr:nth-of-type(odd) {
     background-color: rgb(177 229 242);
+}
+
+#info-bottom {
+    padding: 10px 0px;
+}
+
+div.box-bottom {
+    width: 17rem;
+    height: 13rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 12px 0px;
+}
+
+.image-text {
+    padding: 10px 10px;
+    margin: 0px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#monitor {
+    background-image: url(../Img/monitor.jpg);
+}
+
+#grafico {
+    background-image: url(../Img/graph.jpg);
 }
